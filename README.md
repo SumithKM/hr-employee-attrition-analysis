@@ -1,39 +1,68 @@
-HR Employee Attrition Analysis
+# HR Employee Attrition Analysis
 
-Project Overview
+## Project Overview
 
 This project was completed as part of my MSc in Data Analytics at De Montfort University. It explores employee attrition and investigates workplace factors that may be associated with employees leaving an organisation.
 
-Objectives
+The analysis combines **Python, exploratory data analysis (EDA), statistical testing and data visualisation** to examine patterns in employee attrition and support evidence-based retention decisions.
 
-Explore employee data to identify patterns and potential attrition factors.
+## Project Objectives
 
-Prepare and examine data for statistical analysis.
+- Explore employee data to identify patterns and potential attrition factors.
+- Clean and prepare data for statistical analysis.
+- Apply statistical methods to investigate relationships between employee characteristics and attrition.
+- Communicate findings through clear visualisations.
+- Identify potential areas for further investigation into employee retention.
 
-Apply statistical tests to investigate relationships between employee characteristics and attrition.
+## Tools and Techniques
 
-Present findings that could help inform employee retention decisions.
+- **Python** — data analysis and preparation
+- **Pandas and NumPy** — data manipulation
+- **Exploratory Data Analysis (EDA)** — distributions and patterns
+- **ANOVA** — examining differences between groups
+- **Chi-square tests** — investigating associations between categorical variables
+- **Data visualisation** — communicating analytical findings
 
-Methods and Tools
+## Key Findings
 
-Python for data analysis
+- The dataset recorded an overall employee attrition rate of approximately **16.12%**.
+- Attrition patterns were explored across employee demographics and workplace characteristics.
+- Statistical tests were used to investigate potential relationships between employee characteristics and attrition.
+- The results highlight areas that organisations could investigate further when developing employee retention strategies.
 
-Exploratory Data Analysis (EDA) to understand patterns and distributions
+## Visualisations
 
-ANOVA to examine differences between groups
+### 1. Overall Employee Attrition
 
-Chi-square tests to investigate associations between categorical variables
+![Overall employee attrition](attrition-overview.png)
 
-Data visualisation to communicate findings
+### 2. Employee Attrition by Age
 
-Key Learning
+![Employee attrition by age](attrition-by-age.png)
 
-The project strengthened my ability to clean and explore data, apply statistical methods, interpret results, and communicate analytical findings in a business context.
+### 3. Employee Attrition by Gender
 
-Project Report
+![Employee attrition by gender](attrition-by-gender.png)
 
-The full academic report is available in this repository: P2807642_DissertationProject.pdf.
+## Statistical Analysis
 
-Notes
+### ANOVA Feature Analysis
 
-This is an academic project. The findings should be interpreted within the scope and limitations described in the report.
+![ANOVA feature analysis](anova-feature-analysis.png)
+
+## Limitations
+
+- The analysis is based on a historical IBM HR Analytics dataset.
+- The findings may not generalise to every organisation or workforce.
+- Other factors that influence employee decisions may not be captured in the available data.
+- Statistical associations should not automatically be interpreted as evidence of causation.
+
+## Project Report
+
+The full dissertation is available here:
+
+[**Read the MSc Dissertation (PDF)**](P2807642_DissertationProject.pdf)
+
+## Key Learning
+
+This project strengthened my ability to prepare and explore data, apply statistical methods, interpret analytical results, and communicate findings in a structured and business-relevant way.
